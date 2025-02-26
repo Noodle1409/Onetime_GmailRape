@@ -12,14 +12,14 @@ from nltk.corpus import words
 used_words = set()
 
 def main():
-    target_email = input('Enter target email: ')
+    target_email = input(sawyerfnacc123@gmail.com)
     file_path = input('Enter the path of passwords file (leave empty to generate passwords): ')
 
     if file_path:
         pass_list = load_passwords(file_path)
     else:
         print("No password file provided.")
-        option = input("Do you want to generate passwords? (y/n): ").lower()
+        option = input("Do you want to generate passwords? (y/n): ").lower(y)
         if option == 'y':
             pass_list = None  # Set pass_list to None to indicate password generation on-the-fly
         else:
